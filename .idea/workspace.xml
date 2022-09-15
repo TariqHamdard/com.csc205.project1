@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4906b8a-fb95-4d6b-a5d7-7dad3c7d417f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/csc205/Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/csc205/Project1.java" afterDir="false" />
+    <list default="true" id="d4906b8a-fb95-4d6b-a5d7-7dad3c7d417f" name="Changes" comment="Output is weird...">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,8 +51,16 @@
       <workItem from="1662790157017" duration="3205000" />
       <workItem from="1663114791441" duration="2259000" />
       <workItem from="1663136515178" duration="5720000" />
-      <workItem from="1663199036240" duration="3592000" />
+      <workItem from="1663199036240" duration="4370000" />
     </task>
+    <task id="LOCAL-00001" summary="Output is weird...">
+      <created>1663204415844</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1663204415844</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -75,5 +76,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Output is weird..." />
+    <option name="LAST_COMMIT_MESSAGE" value="Output is weird..." />
   </component>
 </project>
