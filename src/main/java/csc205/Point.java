@@ -32,7 +32,7 @@ public class Point {
     }
 
     public double distance(Point b) {
-       return Math.sqrt((b.x - x) * (b.x -  x)) + ((b.y - y) *(b.y - y));
+       return Math.sqrt(Math.pow((b.x - x), 2) + Math.pow((b.y - y),2));
                 // It's the sqrt of x2-x1 to te second power
         // + y2 - y1 to the second power
     }
@@ -54,13 +54,33 @@ public class Point {
     {
         this.y = y;
     }
-    public void shiftX(double n) {
-        return ;
+
+    public void shiftX (double nA)
+    {
+    x = x + nA;
 
     }
 
-    public void shiftY(double n)
+    public void shiftY (double nB)
     {
 
+    y = y +nB;
+    }
+
+    public void rotate (double theta)
+    {
+        double x1 = this.x;
+        double y1 = this.y;
+
+         this.x = (x1 * Math.cos(theta)) - (y1 * Math.sin(theta));
+         this.y = (x1 * Math.sin(theta)) + (y1 * Math.cos(theta));
+    }
+
+    @Override
+    public String toString() {
+        return "Point{" +
+                "x=" + x +
+                ", y=" + y +
+                '}';
     }
 }

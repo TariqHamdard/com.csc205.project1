@@ -15,17 +15,14 @@ public class Project1 {
         Point b = new Point();
         b.setPoint(6.0, 5.0);
 
-
-
-
         System.out.println("Point 1: " + a);
         System.out.println("Point 2: " + b);
 
         System.out.println("\nDistance: " + a.distance(b));
 
         double rotation = Math.PI / 2.0;
+        a.rotate(rotation);
         System.out.println("\nRotated a " + rotation + ": " + a);
-
 
         Point b2 = new Point(b.getX(), b.getY());
         b.shiftX(4);
